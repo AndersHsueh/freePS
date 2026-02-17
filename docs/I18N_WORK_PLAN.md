@@ -61,9 +61,9 @@ var _u=this.Helper.get_url_parameters(),_k=this.Helper.getCookie("language"),_n=
 ```
 
 **逻辑说明**：
-1. `_p` = URL 参数
-2. `_c` = Cookie 中的语言
-3. `_b` = 浏览器语言主代码 (如 zh-CN → zh)
+1. `_u` = URL 参数
+2. `_k` = Cookie 中的语言
+3. `_n` = 浏览器语言主代码 (如 zh-CN → zh)
 4. `_l` = 最终语言，优先级：URL > Cookie > (浏览器为中文则 zh 否则 en) > en
 5. 仅保留 zh 和 en 两种
 6. 写入 Cookie 并调用 translate
